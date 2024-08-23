@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>echo "# agenda-de-contato" >> README.mds</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="conteiner">
+        <header>
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <form id="formAgenda">
+            <input type="text" id="Nome" required placeholder="Nome ">
+            <input type="tel" id="Numero" required placeholder="Numero" >
+            <button type="submit" id="Botão">Adicionar numero</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th >
+                        Nome: 
+                    </th>
+                    <th>
+                        Telefone: 
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td id="nomeDoContato">---</td>
+                    <td id="NumeroDoContato">---</td>
+                </tr>
+            </tbody>
+            
+        </table>
+
+    </div>
+</body>
+</html>
